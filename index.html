@@ -4,15 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Temi Commerce</title>
+    <title>Temi Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav class="nav">
             <ul>
-                <li><a href="#"></a></li>
+                <li  id="logo"><a href="#">Temi Store</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><input type="search" maxlength="100"></li>
+                <li><a href="#"><img src="icon/icons-grid.png" class="icon"></a></li>
             </ul>
         </nav>
+        <div class="banner">
+            <h1>Mens Wear</h1>
+            <div  class="prod">    
+                <ul>
+                    <li>Accessories</li>
+                    <li>ASOS basic tops</li>
+                    <li>Bags</li>
+                    <li>Caps and Hats</li>
+                    <li>Gifts</li>
+                </ul>
+                <ul>
+                    <li>Accessories</li>
+                    <li>ASOS basic tops</li>
+                    <li>Bags</li>
+                    <li>Caps and Hats</li>
+                    <li>Gifts</li>
+                </ul>
+                <ul>
+                    <li>Accessories</li>
+                    <li>ASOS basic tops</li>
+                    <li>Bags</li>
+                    <li>Caps and Hats</li>
+                    <li>Gifts</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="content">
+            <aside class="aside">
+                <h2 id="search-res">FIlter 486 items</h2>
+                <div class="filters">
+                    <select class="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <select class="categories">
+                        <option value="">Adult</option>
+                        <option value="">Child</option>
+                    </select>
+                </div>
+                <div class="col-size-prange-br">
+                    <div class="colors">
+                        <h3>Color</h3>
+                        <div id="color">
+                            <button class="col-btn" id="color1"></button>
+                            <button class="col-btn" id="color2"></button>
+                            <button class="col-btn" id="color3"></button>
+                            <button class="col-btn" id="color4"></button>
+                            <button class="col-btn" id="color5"></button>
+                            <button class="col-btn" id="color6"></button>
+                            <button class="col-btn" id="color7"></button>
+                        </div>
+                    </div>
+                    <div class="sizes">
+                        <h3>Size</h3>
+                        <div id="size">
+                            <button>XS</button>
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>XL</button>
+                        </div>
+                    </div>
+                    <div class="prange">
+                        <h3>Price range</h3>
+                        <div id="label">
+                            <span>#4</span>
+                            <input type="range" name="range" id="range">
+                            <span>#28</span>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <h3>Brands</h3>
+                        <label for="brand">
+                            <input type="checkbox" name="" id="">
+                            Dolce and Gabanna
+                        </label><br>
+                        <label for="brand">
+                                <input type="checkbox" name="" id="">
+                                Dolce and Gabanna
+                            </label><br>
+                        <label>
+                            <input type="checkbox" name="" id="">
+                            Calvin Klein
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="" id="">
+                            Abercombie and fitch
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="" id="">
+                            ASOS
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="" id="">
+                            Cheap Monday 
+                        </label><br>
+                        <label>
+                                <input type="checkbox" name="" id="">
+                                Abercombie and fitch
+                            </label><br>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                ASOS
+                            </label><br>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                Cheap Monday 
+                            </label><br>
+                    </div>
+                    <div id="submit">
+                        <button id="apply">Apply</button>
+                        <button id="clear">X Clear all</button>
+                    </div>
+                </div>
+            </aside>
+            <main class="main-cont">
+                <div class="prod-row">
+                    <div class="card">
+                        <img src="img/images-shirt11.png">
+                        <h3>Men's Knitwears Offers</h3>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="img/images-shirt12.png">
+                        <h3>Men's Knitwears Offers</h3>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="img/images-shirt13.png">
+                        <h3>Men's Knitwears Offers</h3>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="canv-ads">
+            <h2>Converse</h2>
+            <div>Explore styles tough enough to handle all your workouts</div>
+            <a href="#">Shop Brand</a>
+        </div>
+        <div class="news-susc">
+            <div class="n-text">Suscribe for Shop news, Offer, Special Update</div>
+            <input class="mail" required type="email" placeholder="Your email here">
+            <button class="susc-btn">Suscribe</button>
+        </div>
+        <footer>
+           <ul>
+                <li>&copy;2019 Temi Store Limited. </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy policy</a></li>
+           </ul> 
+        </footer>
     </div>
+    <script src="store.js"></script>
 </body>
 </html>
