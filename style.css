@@ -102,10 +102,10 @@ div.content{
     padding:2%;
 }
 aside.aside{
-    flex:1 1 20%;
+    flex:0 1 20%;
 }
 main.main-cont{
-    flex: 2 2 60%;
+    flex: 2 2 50%;
 }
 main.main-cont > div.prod-row{
     display: flex;
